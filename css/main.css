@@ -308,3 +308,9 @@ textarea {
 */
 
 }
+@media (min-width: 320px){
+   .cont_edu img{
+        width: 84%;
+    
+} 
+}
