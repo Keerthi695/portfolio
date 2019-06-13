@@ -1,0 +1,303 @@
+body {
+    overflow-x: hidden;
+}
+
+h3 span {
+    border-bottom: 3px solid #11ABB0;
+}
+#main_nav{
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+   
+}
+#nav_menu{
+     padding-bottom: 3px;
+}
+
+.container {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.edu_sec img {
+    width: 265px;
+    height: 127px;
+}
+
+#nav_menu {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-size: 21px;
+}
+
+.kee_sec {
+    background-image: url(../images/sample.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+}
+
+.content_sec {
+    text-align: center;
+    color: #fff;
+    padding: 0 147px;
+}
+
+.content_sec h1 {
+    font-size: 70px;
+}
+
+.about_sec h3 {
+    text-align: center;
+}
+
+.about_sec {
+    margin-bottom: 36px;
+}
+
+.educ_sec {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.cont_edu {
+    text-align: center;
+}
+
+.modal-body p {
+    text-align: left;
+}
+
+.work_head h3 {
+    text-align: center;
+}
+
+.work_body img {
+    width: 215px;
+    height: 127px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.work_body #work_role {
+    font: 21px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 5px;
+    margin-top: 9px;
+}
+
+#work_date {
+    font-size: 15px;
+}
+
+.proj_sec {
+    background-color: #f1f0f0;
+    text-align: center;
+}
+
+.proj_sec h3 {
+    padding-bottom: 5vh;
+}
+
+.project_head {
+    text-align: center;
+    margin-bottom: 44px
+}
+
+/*
+.row img {
+    width: 83%;
+    height: 31vh;
+    margin-bottom: 37px;
+    margin-left: 20px;
+}
+*/
+.cont_edu img{
+    width: 83%;
+    height: 31vh;
+    margin-bottom: 37px;
+    margin-left: 20px;
+}
+
+
+.skills_head {
+    text-align: center;
+}
+
+.skills_body img {
+    width: 215px;
+    height: 158px;
+    margin-bottom: 0px;
+   
+}
+
+.form_header {
+    text-align: center
+}
+
+.form {
+    padding-top: 31px;
+    text-align: center;
+}
+
+.send_msg {
+    background-color: #d6ac6d;
+}
+
+.form_body img {
+    width: 229px;
+    height: 127px;
+    margin-left: 100px;
+    margin-top: 101px;
+}
+
+#feedback-page {
+    text-align: center;
+}
+
+#text-feedback {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+#form-main {
+    width: 100%;
+    float: left;
+}
+
+#form-div {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 450px;
+    float: left;
+    left: 53%;
+    position: absolute;
+    margin-left: -260px;
+}
+
+.feedback-input {
+    opacity: 0.9;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    border: none;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+#name {
+    background-image: url(../images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#email {
+    background-image: url(../images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+#comment {
+    background-image: url(../images/comment.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    line-height: 100%;
+}
+
+#button-blue {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    float: left;
+    width: 34%;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    border: none;
+}
+
+.form {
+    padding-top: 0px;
+}
+
+
+.form_sec{
+  border: none; 
+}
+
+@media (min-width: 320px) and (max-width:768px) {
+    #form-div {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 12px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .content_sec {
+        padding: 0px;
+    }
+    .content_sec h1 {
+        font-size: 42px;
+    }
+    .skills_body .col-md-3 h3,
+    p {
+        text-align: center;
+    }
+    .form_body img {
+   width: 100px;
+        height: 29vh;
+    margin-left: 0px; 
+    margin-top: 0px;
+    
+}
+    #formimg_sec{
+        text-align: center;
+    }
+    .cont_edu img{
+        width: 35%;
+    height: 31vh;
+    margin-bottom: 37px;
+    margin-left: 20px;
+}
+    .work_body{
+        text-align: center;
+    }
+    .skills_body .img_sec{
+        text-align: center;
+    }
+
+}
