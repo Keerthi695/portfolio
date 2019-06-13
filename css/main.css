@@ -118,20 +118,19 @@ h3 span {
     margin-bottom: 44px
 }
 
-/*
-.row img {
-    width: 83%;
+.project_main img{
+         width: 83%;
     height: 31vh;
     margin-bottom: 37px;
     margin-left: 20px;
-}
-*/
+    }
 .cont_edu img{
     width: 83%;
     height: 31vh;
     margin-bottom: 37px;
     margin-left: 20px;
 }
+
 
 
 .skills_head {
@@ -164,12 +163,6 @@ h3 span {
     margin-left: 100px;
     margin-top: 101px;
 }
-.project_main img{
-         width: 83%;
-    height: 31vh;
-    margin-bottom: 37px;
-    margin-left: 20px;
-    }
 
 #feedback-page {
     text-align: center;
@@ -305,6 +298,13 @@ textarea {
     .skills_body .img_sec{
         text-align: center;
     }
-    
+/*
+    .project_main img{
+         width: 83%;
+    height: 31vh;
+    margin-bottom: 37px;
+    margin-left: 20px;
+    }
+*/
 
 }
