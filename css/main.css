@@ -299,5 +299,11 @@ textarea {
     .skills_body .img_sec{
         text-align: center;
     }
+    .project_main img{
+         width: 83%;
+    height: 31vh;
+    margin-bottom: 37px;
+    margin-left: 20px;
+    }
 
 }
