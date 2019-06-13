@@ -63,6 +63,7 @@ h3 span {
 
 .about_sec h3 {
     text-align: center;
+    padding: 30px 0px;
 }
 
 .about_sec {
@@ -71,7 +72,7 @@ h3 span {
 
 .educ_sec {
     text-align: center;
-    padding-bottom: 14px;
+    padding: 30px 0px;
 }
 
 .cont_edu {
@@ -84,6 +85,7 @@ h3 span {
 
 .work_head h3 {
     text-align: center;
+    padding: 30px 0px;
 }
 
 .work_body img {
