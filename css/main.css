@@ -23,10 +23,12 @@ h3 span {
     border-bottom: 1px solid #E8E8E8;
 }
 
+/*
 .edu_sec img {
     width: 265px;
     height: 127px;
 }
+*/
 
 #nav_menu {
     display: flex;
@@ -141,9 +143,9 @@ h3 span {
     margin-left: 20px;
     }
 .cont_edu img{
-    width: 83%;
-    height: 31vh;
-    margin-bottom: 37px;
+        width: 75px;
+    height: 14vh;
+   
     margin-left: 20px;
 }
 
@@ -302,12 +304,14 @@ textarea {
     #formimg_sec{
         text-align: center;
     }
+/*
     .cont_edu img{
         width: 35%;
     height: 31vh;
     margin-bottom: 37px;
     margin-left: 20px;
 }
+*/
     .work_body{
         text-align: center;
     }
@@ -324,9 +328,11 @@ textarea {
 */
 
 }
+/*
 @media (min-width: 320px){
    .cont_edu img{
         width: 84%;
     
 } 
 }
+*/
