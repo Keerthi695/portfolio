@@ -4,6 +4,7 @@ body {
 
 h3 span {
     border-bottom: 3px solid #11ABB0;
+   
 }
 #main_nav{
     position: fixed;
@@ -70,6 +71,7 @@ h3 span {
 
 .about_sec h3 {
     text-align: center;
+     padding-bottom: 18px;
 }
 
 .about_sec {
@@ -118,6 +120,18 @@ h3 span {
     margin-top: 9px;
 }
 
+.work_body li{
+    list-style-type: none;
+     position: relative;
+  padding-left: 15px;
+}
+.work_body li:before {
+  content: "\25BA \0020";
+  font-size: 11px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+}
 #work_date {
     font-size: 15px;
 }
@@ -153,6 +167,7 @@ h3 span {
 
 .skills_head {
     text-align: center;
+    padding-bottom: 14px
 }
 
 .skills_body img {
