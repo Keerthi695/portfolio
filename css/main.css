@@ -138,7 +138,7 @@ h3 span {
 }
 .work_body li:before {
   content: "\25BA \0020";
-  font-size: 11px;
+  font-size: 14px;
   position: absolute;
   top: 5px;
   left: -10px;
