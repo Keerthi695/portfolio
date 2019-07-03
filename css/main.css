@@ -12,11 +12,13 @@ h3 span {
     z-index: 999;
    
 }
+
 #nav_menu{
      padding-bottom: 3px;
 }
 
 .container {
+ 
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
 }
@@ -60,19 +62,32 @@ h3 span {
 .content_sec h1 {
     font-size: 70px;
 }
+.content_sec p{
+    font-size: 32px;
+}
 
 .about_sec h3 {
     text-align: center;
-    padding: 30px 0px;
 }
 
 .about_sec {
     margin-bottom: 36px;
 }
-
+#about{
+       padding-top: 49px;
+}
+#education{
+    padding-top: 49px;
+}
+#work{
+    padding-top: 49px;
+}
+#skills{
+    padding-top: 49px;
+}
 .educ_sec {
     text-align: center;
-    padding: 30px 0px;
+    padding-bottom: 14px;
 }
 
 .cont_edu {
@@ -85,7 +100,6 @@ h3 span {
 
 .work_head h3 {
     text-align: center;
-    padding: 30px 0px;
 }
 
 .work_body img {
@@ -300,17 +314,17 @@ textarea {
     .skills_body .img_sec{
         text-align: center;
     }
-
+/*
     .project_main img{
-          width: 50%;
-    height: 30vh;
+         width: 83%;
+    height: 31vh;
     margin-bottom: 37px;
     margin-left: 20px;
     }
-
+*/
 
 }
-@media (max-width: 320px){
+@media (min-width: 320px){
    .cont_edu img{
         width: 84%;
     
