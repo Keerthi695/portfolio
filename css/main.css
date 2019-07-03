@@ -73,7 +73,18 @@ h3 span {
     text-align: center;
      padding-bottom: 18px;
 }
-
+.p_cntn li{
+    list-style-type: none;
+     position: relative;
+  padding-left: 15px;
+}
+.p_cntn li:before {
+  content: "\0BB \020";
+  font-size: 16px;
+  position: absolute;
+/*  top: 5px;*/
+  left: -10px;
+}
 .about_sec {
     margin-bottom: 36px;
 }
