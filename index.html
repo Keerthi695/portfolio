@@ -401,18 +401,18 @@ polling questions for the newscards and also the footer advertisements.
 
                 <div id="form-main">
                     <div id="form-div">
-                        <form class="form" id="form1" action="http://formspree.io/mandavakeerthi9@gmail.com">
+                        <form class="form" id="form1" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
 
                             <p class="name">
-                                <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+                                <input name="entry.1011405493" type="text" class="feedback-input" placeholder="Name" id="name"  />
                             </p>
 
                             <p class="email">
-                                <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+                                <input name="entry.1496806155" type="text" class="feedback-input" id="email" placeholder="Email" />
                             </p>
 
                             <p class="text">
-                                <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+                                <textarea name="entry.2050830456" class="feedback-input" id="comment" placeholder="Comment"></textarea>
                             </p>
 
 
@@ -421,14 +421,58 @@ polling questions for the newscards and also the footer advertisements.
 
                             </div>
                         </form>
+                        
                     </div>
 
 
                 </div>
             </div>
         </div>
+<!--        <h3 id="success-msg"> Your Request has been submitted we get back you soon</h3>-->
     </div>
     
 </body>
 
 </html>
+<script>
+function postToGoogle() {
+                var field1 = $("#name").val();
+                var field2 = $("#email").val();
+                var field3 = $("#comment").val();
+//                var field4 = $("#cinema option:selected").text();
+ 				
+				if(field1 == ""){
+					alert('Please Fill Your Name');
+					document.getElementById("name").focus();
+					return false;
+				}
+				if(field2 == ""){
+					alert('Please Fill Your Email');
+					document.getElementById("email").focus();
+					return false;
+				}
+				
+
+				
+	
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSfIW-9OqNLS07-WNEWM0xU_QUsYsJwJWJniZZPIv8x7nuLbhw/formResponse?",
+					data: {"entry.1011405493": field1, "entry.1496806155": field2, "entry.2050830456": field3},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+                            alert("Thank you for going to for my portfolio")
+
+//							$('#success-msg').show();
+							$('#form1').reset();
+							
+						}
+                });
+				return false;
+            }
+</script>
+  
