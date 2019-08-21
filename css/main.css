@@ -173,15 +173,17 @@ h3 span {
     }
 .project_main img:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    transform: scale(1);
+    transform: scale(1.5);
 }
 .cont_edu img{
         width: 75px;
     height: 14vh;
-   
-    margin-left: 20px;
+   margin-left: 20px;
+    
 }
-
+.cont_edu img:hover{
+transform: scale(1.5);
+}
 
 
 .skills_head {
