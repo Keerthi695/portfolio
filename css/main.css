@@ -173,7 +173,7 @@ h3 span {
     }
 .project_main img:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    transform: scale(1.5);
+    transform: scale(0.7);
 }
 .cont_edu img{
         width: 75px;
